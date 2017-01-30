@@ -1,13 +1,13 @@
-spring-data-rest-templates-TT210
+boot_rest_auth0_rt
 ================================
 
-Telosys Tools bundle (2.1.0 or newer) for Spring Data Rest generation (Support of HATEOAS)
+Telosys Tools bundle (2.1.0 or newer) for Spring Data Rest generation with Auth0 support
 
-Expose your JPA entities with a RESTful API (HATEOAS / HAL Support)
+Expose your Heroku Connect Postgres entities with a RESTful API
 
 This bundle allows you to generate for each of your database tables :
 - The associated JPA entities
-- The Spring configuration for Spring DATA REST, DATA JPA and MVC
+- The Spring configuration for Spring DATA REST, DATA JPA, Security and Auth0 configuration
 - The associated JPA repositories (include search methods for Many-to-one relationships)
 - Spring Validators
 - Spring Converters for composite primary keys
@@ -22,4 +22,3 @@ Tutorial
 -------------
 [How to use it !](doc/HOWTO.md)
 
-# boot_rest_auth0_rt
